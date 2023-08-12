@@ -1,0 +1,7 @@
+The official course repository: https://github.com/15Dkatz/cryptochain
+
+Use this as a resource if you’re ever stuck with syntax errors or weird bugs in your code :)
+
+"commit-by-lecture by breakdown" repository: https://github.com/15Dkatz/cryptochain_commits
+
+It has an index list of a commit per lecture in this course. You may find this one more helpful as you navigate the project, and get stuck at particular sections.
