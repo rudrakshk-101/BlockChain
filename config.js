@@ -10,5 +10,7 @@ const GENESIS_DATA = {
     nonce: 0,
     data: []
   };
+
+  const STARTING_BALANCE = 999;
   
-  module.exports = { GENESIS_DATA, MINE_RATE };
+  module.exports = { GENESIS_DATA, MINE_RATE, STARTING_BALANCE };
