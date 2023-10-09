@@ -11,10 +11,10 @@ let prevTimeStamp, nextTimeStamp, nextBlock, timeDiff, average;
 const times = [];
 
 for(let i =0; i<10000; i++){
-    prevTimeStamp = blockchain.chain[blockchain.chain.length-1].timeStamp;
+    prevTimeStamp = blockchain.chain[blockchain.chain.length-1].timestamp;
     blockchain.addBlock({data: `block ${i}`});
     nextBlock = blockchain.chain[blockchain.chain.length-1];
-    nextTimeStamp = nextBlock.timeStamp;
+    nextTimeStamp = nextBlock.timestamp;
     timeDiff = nextTimeStamp - prevTimeStamp;
     times.push(timeDiff);
     average = times.reduce((total, num) => (total + num))/times.length;
