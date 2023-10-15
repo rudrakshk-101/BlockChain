@@ -8,7 +8,7 @@ const GENESIS_DATA = {
     hash: "1010101",
     difficulty: INITIAL_DIFFICULTY,
     nonce: 0,
-    data: []
+    data: ["SAMOSA"]
   };
 
   const STARTING_BALANCE = 999;

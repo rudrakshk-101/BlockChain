@@ -20,7 +20,7 @@ class TransactionMiner {
           this.pubsub.broadcastChain(); // broadcast the updated blockchain
   // clear the pool
           this.transactionPool.clear();  
-        //   this.transactionPool.clearBlockchainTransactions({chain: this.blockchain});
+          this.transactionPool.clearBlockchainTransactions({chain: this.blockchain});
     }
   }
   
