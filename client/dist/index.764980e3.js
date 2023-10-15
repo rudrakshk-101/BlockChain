@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"deGzz":[function(require,module,exports) {
+})({"lgFEE":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -20304,6 +20304,6 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}]},["deGzz","1xC6H","iXgNX"], "iXgNX", "parcelRequire89ea")
+},{"7422ead32dcc1e6b":"786KC"}]},["lgFEE","1xC6H","iXgNX"], "iXgNX", "parcelRequire89ea")
 
 //# sourceMappingURL=index.764980e3.js.map
