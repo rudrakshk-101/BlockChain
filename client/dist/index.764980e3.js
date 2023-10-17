@@ -2946,21 +2946,23 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
-(0, _reactDom.render)(/*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
+var _app = require("./components/App");
+var _appDefault = parcelHelpers.interopDefault(_app);
+(0, _reactDom.render)(/*#__PURE__*/ (0, _reactDefault.default).createElement((0, _appDefault.default), {
     __source: {
         fileName: "client/src/index.js",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     },
     __self: undefined
-}, "Cryptochain in React!: Third Live Update"), document.getElementById("root"));
+}), document.getElementById("root"));
 
   $parcel$ReactRefreshHelpers$ffae.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"21dqq","react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"21dqq":[function(require,module,exports) {
+},{"react":"21dqq","react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/App":"ifYPa"}],"21dqq":[function(require,module,exports) {
 "use strict";
 module.exports = require("a569817e6ea559f6");
 
@@ -20304,6 +20306,36 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}]},["lgFEE","1xC6H","iXgNX"], "iXgNX", "parcelRequire89ea")
+},{"7422ead32dcc1e6b":"786KC"}],"ifYPa":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$84ad = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$84ad.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+class App extends (0, _react.Component) {
+    render() {
+        return /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
+            __source: {
+                fileName: "client/src/components/App.js",
+                lineNumber: 6,
+                columnNumber: 13
+            },
+            __self: this
+        }, "Wecolme to the Blockchain...");
+    }
+}
+exports.default = App;
+
+  $parcel$ReactRefreshHelpers$84ad.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["lgFEE","1xC6H","iXgNX"], "iXgNX", "parcelRequire89ea")
 
 //# sourceMappingURL=index.764980e3.js.map
